@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saman Ramzan | Professional Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #1a2a6c;
+            --accent-color: #b21f1f;
+            --bg-color: #ffffff;
+            --text-color: #333;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: var(--bg-color); color: var(--text-color); }
+        
+        /* Header Section */
+        header { background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d); color: white; padding: 80px 20px; text-align: center; }
+        header h1 { font-size: 3.5rem; margin: 0; text-transform: uppercase; letter-spacing: 4px; }
+        header p { font-size: 1.2rem; opacity: 0.9; margin-top: 10px; }
+        
+        /* Layout Container */
+        .container { max-width: 1000px; margin: -50px auto 50px; padding: 40px; background: white; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        
+        .social-links { margin-top: 20px; }
+        .social-links a { color: white; font-size: 2rem; margin: 0 15px; text-decoration: none; transition: 0.3s; }
+        .social-links a:hover { color: #fdbb2d; }
+
+        section { margin-bottom: 50px; }
+        h2 { border-bottom: 3px solid var(--primary-color); padding-bottom: 10px; color: var(--primary-color); display: flex; align-items: center; }
+        h2 i { margin-right: 15px; }
+
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .card { border: 1px solid #eee; padding: 20px; border-radius: 10px; transition: 0.3s; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-color: var(--accent-color); }
+        .card h3 { margin-top: 0; color: var(--accent-color); }
+
+        .skills-container { display: flex; flex-wrap: wrap; gap: 10px; }
+        .skill-badge { background: #f0f2f5; padding: 10px 20px; border-radius: 50px; font-weight: bold; font-size: 0.9rem; border: 1px solid #ddd; }
+
+        .cert-list { list-style: none; padding: 0; }
+        .cert-item { background: #fffaf0; margin-bottom: 10px; padding: 15px; border-radius: 8px; border-left: 5px solid #fdbb2d; }
+
+        /* Resume-style Logo Placeholders */
+        .experience-item { display: flex; gap: 20px; margin-bottom: 30px; align-items: start; }
+        .logo-placeholder { width: 60px; height: 60px; background: #eee; border-radius: 8px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; text-align: center; color: #999; border: 1px dashed #ccc; }
+
+        @media (max-width: 768px) { .grid { grid-template-columns: 1fr; } .container { width: 90%; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SAMAN RAMZAN</h1>
+    <p>Computer Scientist | Graphic Designer | Entrepreneur</p>
+    <div class="social-links">
+        <a href="mailto:samanramzan473@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/saman-ramzan-597a60354" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+</header>
+
+<div class="container">
+    <section>
+        <h2><i class="fas fa-user-graduate"></i> Education</h2>
+        <div class="card">
+            <h3>BS in Computer Science (BSCs)</h3>
+            <p><b>Fatima Jinnah Women University (FJWU)</b> | 2024 - 2028</p>
+            <p>Specializing in computational logic and creative technology.</p>
+        </div>
+        <br>
+        <div class="card">
+            <h3>Intermediate in Computer Science (ICS)</h3>
+            <p><b>APS Humayun</b> | Grade A (2021 - 2023)</p>
+        </div>
+    </section>
+
+    <section>
+        <h2><i class="fas fa-briefcase"></i> Professional Experience</h2>
+        
+        <div class="experience-item">
+            <div class="logo-placeholder">PMYDC Logo</div>
+            <div>
+                <h3>Head of Graphic Designing Unit</h3>
+                <p><b>Prime Minister Youth Development Council (PMYDC-FJWU)</b></p>
+                <p>Leading the creative direction for university-level youth development initiatives.</p>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="logo-placeholder">CBS Logo</div>
+            <div>
+                <h3>Chief of Graphics Designing Committee</h3>
+                <p><b>Character Building Society (CBS-FJWU)</b></p>
+                <p>Managing visual communication for seminars and awareness campaigns including "Dukhtaran-e-Pakistan".</p>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="logo-placeholder">CLC Logo</div>
+            <div>
+                <h3>Creative Designer & Outreach Executive</h3>
+                <p><b>Creative Leadership Conference (CLC) & VFP</b></p>
+                <p>Core Team member involved in decision-making and large-scale volunteer management.</p>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="logo-placeholder">Bake Logo</div>
+            <div>
+                <h3>Entrepreneur & Founder</h3>
+                <p><b>Blossom Bake Houxx</b></p>
+                <p>Successful home-based bakery venture managing production and branding.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2><i class="fas fa-tools"></i> Technical Skills</h2>
+        <div class="skills-container">
+            <span class="skill-badge">Python & C++</span>
+            <span class="skill-badge">Figma (UI/UX)</span>
+            <span class="skill-badge">Adobe Canva</span>
+            <span class="skill-badge">Anaconda Navigator</span>
+            <span class="skill-badge">Virtual Box</span>
+            <span class="skill-badge">SEO Content Writing</span>
+            <span class="skill-badge">Logo Designing</span>
+            <span class="skill-badge">Web Development</span>
+        </div>
+    </section>
+
+    <section>
+        <h2><i class="fas fa-award"></i> Certifications & Honors</h2>
+        <ul class="cert-list">
+            <li class="cert-item"><b>Web Development:</b> Construction Technology Training Institute (CTTI).</li>
+            <li class="cert-item"><b>Recognition:</b> Designing "Dukhtaran-e-Pakistan" National Seminar posters.</li>
+            <li class="cert-item"><b>Community Service:</b> Certificate for Human Trafficking Awareness (PHEC directive).</li>
+            <li class="cert-item"><b>Appreciation:</b> Organizer for Mental Health Week Mela.</li>
+            <li class="cert-item"><b>Philanthropy:</b> Recognition for dedicated service during Flood Relief Drive.</li>
+            <li class="cert-item"><b>Peace & Integrity:</b> Poster design for National Social Cohesion seminar.</li>
+        </ul>
+    </section>
+</div>
+
+<footer style="text-align: center; padding-bottom: 50px; color: #888;">
+    <p>&copy; 2026 Saman Ramzan. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
